@@ -449,7 +449,7 @@ export function render<
    *
    * @example "gpt-3.5-turbo"
    */
-  model: string;
+  model: string[];
   optimization: string; 
   language: "auto";
   /**
