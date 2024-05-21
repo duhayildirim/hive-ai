@@ -450,6 +450,8 @@ export function render<
    * @example "gpt-3.5-turbo"
    */
   model: string;
+  optimization: string; 
+  language: "auto";
   /**
    * The provider instance to use. Currently the only provider available is OpenAI.
    * This needs to match the model name.
@@ -601,6 +603,8 @@ export function render<
           model: options.model,
           messages: options.messages,
           temperature: options.temperature,
+          optimization: options.optimization,
+          language: options.language,
           stream: true,
           ...(functions
             ? {
