@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "hive-ai",
   "scripts": {
     "build": "turbo build",
     "changeset": "changeset",
@@ -37,14 +38,11 @@
   "homepage": "https://sdk.vercel.ai/docs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vercel/ai.git"
+    "url": "git+https://github.com/duhayildirim/hive-ai.git"
   },
   "license": "Apache License",
-  "bugs": {
-    "url": "https://github.com/vercel/ai/issues"
-  },
   "keywords": [
-    "ai"
+    "hive-ai"
   ],
   "packageManager": "pnpm@8.6.9",
   "prettier": {
